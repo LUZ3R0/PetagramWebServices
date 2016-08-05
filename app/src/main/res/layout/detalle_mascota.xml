@@ -25,7 +25,7 @@
                 android:id="@+id/imgImagenDetalle"
                 android:layout_width="wrap_content"
                 android:layout_height="280dp"
-                android:src="@drawable/ayudantedesanta"/>
+                android:src="@drawable/dog_bone"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"

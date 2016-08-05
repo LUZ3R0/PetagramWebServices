@@ -32,5 +32,9 @@ public final class ConstantesRestApi {
     public static final String KEY_SEARCH = "users/search";
     public static final String URL_SEARCH = KEY_SEARCH;
 
+    //Registro
+    public static final String ROOT_URL_TOKEN = "https://young-journey-16330.herokuapp.com/";
+    public static final String KEY_POST_ID_TOKEN = "registrar-usuario";
+
 
 }

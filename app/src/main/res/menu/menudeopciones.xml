@@ -25,7 +25,10 @@
         android:title="Configurar Cuenta"
         android:orderInCategory="1"
         app:showAsAction="never"/>
-
-
+    <item
+        android:id="@+id/recibirnotificaciones"
+        android:title="Recibir Notificaciones"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
 
 </menu>

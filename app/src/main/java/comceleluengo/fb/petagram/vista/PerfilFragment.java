@@ -1,6 +1,5 @@
 package comceleluengo.fb.petagram.vista;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -8,32 +7,21 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.gson.Gson;
 import com.mikhaellopez.circularimageview.CircularImageView;
 import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
-import comceleluengo.fb.petagram.MainActivity;
 import comceleluengo.fb.petagram.R;
 import comceleluengo.fb.petagram.adaptadores.AnimalesAdapter;
 import comceleluengo.fb.petagram.adaptadores.PerfilAdapter;
-import comceleluengo.fb.petagram.model.AnimalesResponse;
 import comceleluengo.fb.petagram.pojo.Animales;
 import comceleluengo.fb.petagram.presentador.IPerfilFragmentPresenter;
 import comceleluengo.fb.petagram.presentador.PerfilFragmentPresenter;
-import comceleluengo.fb.petagram.restApi.EndPointsApi;
-import comceleluengo.fb.petagram.restApi.adapter.RestApiAdapter;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class PerfilFragment extends Fragment implements IPerfilFragment {
 

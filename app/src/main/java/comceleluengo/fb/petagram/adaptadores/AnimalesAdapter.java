@@ -14,8 +14,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import comceleluengo.fb.petagram.DetalleMascota;
-import comceleluengo.fb.petagram.MainActivity;
+import comceleluengo.fb.petagram.actividades.DetalleMascota;
 import comceleluengo.fb.petagram.pojo.Animales;
 import comceleluengo.fb.petagram.R;
 

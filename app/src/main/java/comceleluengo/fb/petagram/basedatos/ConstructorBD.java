@@ -26,7 +26,7 @@ public class ConstructorBD {
         BaseDatos db = new BaseDatos(context);
         misMascotas = db.obtenerAnimales();
         if (misMascotas.isEmpty()) {
-            insertarOchoAnimales(db);
+           // insertarOchoAnimales(db);
             misMascotas = db.obtenerAnimales();
         }
 
@@ -34,7 +34,7 @@ public class ConstructorBD {
 
     }
 
-    public void insertarOchoAnimales(BaseDatos db){
+   /* public void insertarOchoAnimales(BaseDatos db){
 
         ContentValues cv = new ContentValues();
 
@@ -77,7 +77,7 @@ public class ConstructorBD {
         cv.put(ConstantesBD.TABLE_MASCOTAS_FOTO, R.drawable.stitch);
         db.insertarAnimales(cv);
 
-    }
+    }*/
 
     public void darLike (Animales animales){
 

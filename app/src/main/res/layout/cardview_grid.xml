@@ -18,7 +18,7 @@
             android:id="@+id/imgImagenGrid"
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:src="@drawable/ayudantedesanta" />
+            android:src="@drawable/dog_bone" />
 
         <LinearLayout
             android:layout_width="wrap_content"

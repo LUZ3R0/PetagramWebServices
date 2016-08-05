@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "423123905624",
+    "firebase_url": "https://petagrambd.firebaseio.com",
+    "project_id": "petagrambd",
+    "storage_bucket": "petagrambd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423123905624:android:e2cad5a08ad424f6",
+        "android_client_info": {
+          "package_name": "comceleluengo.fb.petagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423123905624-f45adu8lpmfej1d7dg7q5v07f1cu7k9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comceleluengo.fb.petagram",
+            "certificate_hash": "A70D376D33EFE703BA8FA13BA3CB34BFDE77F282"
+          }
+        },
+        {
+          "client_id": "423123905624-2gtst2f3sl4boc1nhh25o7lrjd57m3iu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_oWTceboL7EEkn3dQILhvJSA0eNjHK0w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423123905624-2gtst2f3sl4boc1nhh25o7lrjd57m3iu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
